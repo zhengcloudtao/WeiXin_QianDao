@@ -1,0 +1,3 @@
+<image wx:if='{{src}}' src="{{src}}"  mode="aspectFit"></image>
+<text>\n</text>
+<button  bindtap="display">显示</button>

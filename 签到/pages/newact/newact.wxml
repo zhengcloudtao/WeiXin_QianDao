@@ -1,0 +1,26 @@
+<form bindsubmit="newact" bindreset="formReset">
+
+<view>活动名称:</view>
+<input  maxlength="10" placeholder="      最大输入长度为10" name="act" />
+
+<view >负责人:</view>
+<input  maxlength="10" placeholder="      最大输入长度为10" name="aname"/>
+     
+<view >电话/手机:</view>
+<input  type="number" placeholder="" name="tel" />
+     
+<view >活动大致内容:</view>
+<input  maxlength="10" placeholder="      最大输入长度为10" name="content"/>
+     
+<view >活动地点:</view> 
+<text class="location">    
+地点: {{location}} <text>\n</text>
+纬度:{{latitude}} <text>\n</text>
+经度:{{longitude}}</text>
+<text>\n</text> 
+<text>\n</text>
+<button size="mini" type="default" bindtap='getLocation'>选择位置</button>
+<text wx:if="{{error}}">{{error}}</text>
+<button formType="submit">提交</button>
+
+</form>

@@ -1,0 +1,17 @@
+/**
+ * 参数1: 要截取的字符串
+ * 参数2: 开始截取的index
+ * 参数3: 结束截取的index
+ */
+var sub = function (val, start, end) {
+  
+  if ( val == undefined|| val==''|| val==null) {
+    return;
+  }
+  if (val.length > end) {
+  return val.substring(start, end);
+  } else {
+    return val;
+  }
+}
+module.exports.sub = sub;

@@ -1,0 +1,12 @@
+<view wx:for="{{list}}" wx:key="list" >
+
+<view>id="{{item.id}}"</view>
+<view>act="{{item.act}}"</view>
+<view>aname="{{item.aname}}"</view>
+<view>tel="{{item.tel}}"</view>
+<view>content="{{item.content}}"</view>
+<view>loaction="{{item.loaction}}"</view>
+<text>\n</text>
+ <button data-aid="{{item.aid}}" bindtap="viewItem">查看详情</button>
+</view>
+<view wx:if='{{list<5 }}' >您尚未参加签到活动</view>

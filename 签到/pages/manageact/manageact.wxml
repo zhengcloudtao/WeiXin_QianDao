@@ -1,0 +1,17 @@
+
+<view wx:for="{{list}}" wx:key="list" >
+
+<view>id="{{item.id}}"</view>
+<view>act="{{item.act}}"</view>
+<view>aname="{{item.aname}}"</view>
+<view>tel="{{item.tel}}"</view>
+<view>content="{{item.content}}"</view>
+<view>loaction="{{item.loaction}}"</view>
+<text>\n</text>
+
+ <button data-aid="{{item.aid}}" bindtap="set">设置</button>
+<text>\n</text>
+<button data-aid="{{item.aid}}" bindtap="code">活动二维码</button>
+
+</view>
+<view wx:if='{{list<5 }}' >您尚未创建签到活动</view>

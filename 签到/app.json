@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/qiandao/qiandao",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/newact/newact",
+    "pages/manageact/manageact",
+    "pages/setact/setact",
+    "pages/actcode/actcode",
+    "pages/searchact/searchact",
+    "pages/sign/sign",
+    "pages/joinact/joinact",
+    "pages/joinsetact/joinsetact",
+
+    "pages/voucher/voucher",
+    "pages/code/code",
+    "pages/verification/verification",
+
+
+  
+   
+
+
+
+
+   
+    "pages/logs/logs"
+
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "签到",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

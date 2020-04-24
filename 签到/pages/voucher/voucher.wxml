@@ -1,0 +1,8 @@
+<!--pages/qrcode/qrcode.wxml-->
+
+<view wx:for="{{list}}" wx:key="list" >
+<view>act="{{item.act}}"</view>
+<text>\n</text>
+ <button data-aid="{{item.aid}}" bindtap="display">二维码</button>
+</view>
+<view wx:if='{{list<5 }}' >您尚未参加签到活动</view>

@@ -1,0 +1,52 @@
+
+组织者: 
+  <!-- 新建签到 -->
+
+    <navigator url="../newact/newact" open-type="navigate" >
+      <text>新建签到</text>
+    </navigator>
+ 
+ <text>\n</text>
+ <text>\n</text>
+   <!-- 扫码签到 -->
+
+    <navigator url="../verification/verification" open-type="navigate">
+      <text>核销二维码凭证</text>
+    </navigator>
+ <text>\n</text>
+ <text>\n</text>
+
+<!-- 管理签到 -->
+
+    <navigator url="../manageact/manageact" open-type="navigate" >
+      <text>管理签到</text>
+    </navigator>
+ <text>\n</text>
+ <text>\n</text>
+参加者:
+ <!-- 参加签到 -->
+
+    <navigator url="../searchact/searchact" open-type="navigate">
+      <text>报名签到活动</text>
+    </navigator>
+ <text>\n</text>
+ <text>\n</text>
+
+   <!-- 二维码凭证-->
+
+    <navigator url="../voucher/voucher" open-type="navigate" >
+      <text>二维码凭证</text>
+    </navigator>
+
+ <text>\n</text>
+ <text>\n</text>
+
+  
+<!-- 我参加过的活动 -->
+
+    <navigator url="../joinact/joinact" open-type="navigate">
+      <text>我报名过的活动</text>
+    </navigator>
+ 
+
+

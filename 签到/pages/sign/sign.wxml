@@ -1,0 +1,8 @@
+<form bindsubmit="sign" bindreset="formReset">
+<view >姓名</view>
+<input  maxlength="99" placeholder="      请输入姓名" name="name" />
+<view >备注</view>
+<input maxlength="99" placeholder="      请输入备注" name="content" />
+{{error}}
+<button formType="submit">提交</button>
+</form>

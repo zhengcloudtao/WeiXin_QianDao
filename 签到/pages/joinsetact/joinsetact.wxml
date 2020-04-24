@@ -1,0 +1,5 @@
+{{aid}}
+<button  bindtap="sign">签到</button>
+<text>\n</text>
+<button  bindtap="deleteact">删除</button>
+

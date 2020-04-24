@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+
+ <button open-type="getUserInfo"  disabled="{{isClick}}" bindgetuserinfo="login">
+  <text wx:if="{{isClick}}"></text> 微信登录</button>
+
+ 

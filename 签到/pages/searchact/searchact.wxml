@@ -1,0 +1,39 @@
+<wxs src="../../utils/subutils.wxs" module="tools" />
+
+<form bindsubmit="searchact" bindreset="formReset">
+<text>\n</text>
+<text>\n</text>
+<view >搜索活动ID:</view>
+<text>\n</text>
+<text>\n</text>
+ <input  maxlength="9999" placeholder="        活动ID     " name="aid"   value="{{tools.sub(src,29,33)}}"/>
+<text>\n</text>
+<text>\n</text>
+<button formType="submit">提交</button>
+</form>
+<text>\n</text>
+<text>\n</text>
+
+
+<view wx:if='{{list<5 }}' >未找到相应签到活动</view>
+<text>\n</text>
+<view>扫码获取活动ID:</view>
+<button bindtap="sweep">扫一扫</button>
+<text>\n</text>
+<text>\n</text>
+
+<view wx:for="{{list}}" wx:key="list" >
+<view>id="{{item.id}}"</view>
+<view>act="{{item.act}}"</view>
+<view>aname="{{item.aname}}"</view>
+<view>tel="{{item.tel}}"</view>
+<view>content="{{item.content}}"</view>
+<view>loaction="{{item.loaction}}"></view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<button data-aid="{{item.aid}}" bindtap="sign">报名</button>
+
+</view>
+
+ 

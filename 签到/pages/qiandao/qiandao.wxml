@@ -1,0 +1,1 @@
+ <button bindtap="login" >签到功能</button>
